@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2? family= Justo & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1f1546 16.62%, #130a02 85.61%);
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.Cabeçalho-imagem{
+    height: 45px;
+}
+
+.Cabeçalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.Cabeçalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: floralwhite;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2ef;
+}
+
+.Conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Conteudo-principal-escrito-titulo{
+    font-family: 'Justo', cursiva;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2ef;
+}
+
+.Conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.Conteudo-principal-escrito-botão{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: ridge;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+}
+
+
+.Conteudo-principal-escrito-botão:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+
+.conteudo-principal-imagem{
+    height: 325px;
+    margin-top: 40px;
+}
+
+
+.conteudo-secundário{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundário-titulo{
+    border-top: 0.4px solid #fff2ef;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundário-parágrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+
+.rodape{
+    padding: 35px;
+    border-top: 0.4px solid #fff2ef;
+}
+
+.rodape-imagem{
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
